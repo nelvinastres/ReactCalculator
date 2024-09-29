@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.form form {
+  display: flex;
+  flex-direction: row;
+}
+
+.form h1 {
+  color: white;
+  font-weight: 600;
+  margin: 50px 250px 5px 180px;
+  padding-bottom: 10px;
+  border-bottom: 1px white solid;
+}
+
+.form form .label {
+  display: flex;
+  flex-direction: row;
+}
+
+.form form .namelabel {
+  color: white;
+  font-size: 24px;
+  margin: 5px 5px;
+}
+
+.form form .name .must {
+  color: red;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.form form .name input {
+  margin: 0px 5px;
+  background-color: black;
+  border: 1px white solid;
+  border-radius: 5px;
+  height: 30px;
+  width: 40%;
+  color: white;
+  padding-left: 10px;
+}
+
+.form form .name input:focus {
+  border-color: orange;
+  outline: none;
+}
+
+.form form .name .bottomlabel {
+  color: white;
+  display: flex;
+}
+
+.form form .name .bottomlabel .first {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.form form .name .bottomlabel .last {
+  margin-left: 35.5%;
+}
+
+.form form .emaillabel {
+  color: white;
+  font-size: 24px;
+  margin: 5px 5px;
+}
+
+.form form .email .must {
+  color: red;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.form form .email input {
+  margin: 0px 5px;
+  background-color: black;
+  border: 1px white solid;
+  border-radius: 5px;
+  height: 30px;
+  width: 83.5%;
+  color: white;
+  padding-left: 10px;
+}
+
+.form form .email input:focus {
+  border-color: orange;
+  outline: none;
+}
+
+.form form .topiclabel {
+  color: white;
+  font-size: 24px;
+  margin: 10px 5px;
+}
+
+.form form .topic .must {
+  color: red;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.form form .topic .cont {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: 1px white dashed;
+  margin: 0px 30px 0px 5px;
+  align-items: flex-start;
+  background-color: rgb(35, 34, 34);
+}
+
+.form form .topic .cont p {
+  margin: 10px 15px;
+  font-size: 18px;
+}
+
+.form form .topic .cont .radio .general {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.form form .topic .cont .radio .bug {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.form form .topic .cont .radio input {
+  height: 8px;
+  margin-top: 8px;
+  accent-color: orange;
+}
+
+.form form .topic .cont .radio .general p,  .form form .topic .cont .radio .bug p {
+  margin: 0px 5px;
+  font-size: 16px;
+}
+
+.form form .topic .cont .radio {
+  margin-left: 15px;
+}
+
+.form form .contain2 {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form form .contain1 {
+  margin-left: 15%;
+}
+
+.form form .desclabel {
+  color: white;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.form form .optional {
+  color: rgb(95, 95, 95);
+  font-size: 16px;
+  margin: 5px 0px;
+}
+
+.form form .contain2 .description textarea {
+  background-color: black;
+  border: 1px white solid;
+  height: 285px;
+  width: 200%;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 10px;
+  resize: none;
+  color: white;
+}
+
+.form form .description textarea:focus {
+  border-color: orange;
+  outline: none;
+}
+
+.form button {
+  background-color: orange;
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 250px;
+  float: right;
+  cursor: pointer;
+}
